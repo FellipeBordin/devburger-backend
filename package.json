@@ -1,0 +1,39 @@
+{
+  "name": "devburger-api",
+  "version": "1.0.0",
+  "description": "DevBurger-API",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "Fellipe bordin",
+  "url": "https://github.com/FellipeBordin/DevBurger",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0",
+    "multer": "^2.0.2",
+    "pg": "^8.16.3",
+    "sequelize": "^6.37.7",
+    "stripe": "^19.3.1",
+    "uuid": "^11.1.0",
+    "yup": "^1.7.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "eslint": "^9.33.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "globals": "^16.3.0",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2",
+    "sequelize-cli": "^6.6.3",
+    "sucrase": "^3.35.0"
+  }
+}
